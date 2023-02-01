@@ -411,6 +411,7 @@ footer {
   height: 92px;
 }
 .footer-address {
+  display: inline;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
