@@ -386,8 +386,6 @@ h4 {
 }
 /*Footer*/
 footer {
-  position: absolute;
-  top: 2097px;
   width: 100%;
   height: 252px;
   background: var(--sec-background-color-dark);
@@ -409,7 +407,6 @@ footer {
 }
 
 .footer-address-box {
-  padding-left: 215px;
   width: 231px;
   height: 92px;
 }
