@@ -8,7 +8,10 @@
     <!--podlinkowany normalizator-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../goit-markup-hw-03/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,29 +23,27 @@
   </head>
   <body>
     <header>
-      <ul class="header-list">
-        <li class="header-list-logo-item">
+      <ul class="header-flex-items">
+        <li class="header-item-1">
           <a class="header-logo" href="./index.html"> WebStudio</a>
         </li>
-        <li class="header-list-nav-item">
-          <nav>
-            <ul class="header-nav-list">
-              <li class="header-nav-studio">
-                <a href="./index.html">Studio</a>
-              </li>
-              <li class="header-nav-portfolio">
-                <a href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="header-nav-contacts"><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
+        <li class="header-item-2">
+          <ul class="header-nav-list">
+            <li class="header-nav-studio">
+              <a href="./index.html">Studio</a>
+            </li>
+            <li class="header-nav-portfolio">
+              <a href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-nav-contacts"><a href="#">Contacts</a></li>
+          </ul>
         </li>
-        <li class="header-list-contacts-item">
+        <li class="header-item-3">
           <ul class="header-contacts-list">
             <li>
               <a class="header-contact-link-mail" href="info@devstudio.com"
-                >info@devstudio.com</a
-              >
+                >info@devstudio.com
+              </a>
             </li>
             <li>
               <a class="header-contact-link-tel" href="tel:+12127724150"
@@ -172,7 +173,7 @@
       </section>
     </main>
     <footer>
-      <p><a class="footer-logo" href="#">WebStudio</a></p>
+      <a class="footer-logo" href="#">WebStudio</a>
       <address class="footer-address-box">
         <p class="footer-address">
           695 Park Ave, New York, NY 10065,<br />
