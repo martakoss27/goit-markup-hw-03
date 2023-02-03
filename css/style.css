@@ -22,6 +22,9 @@ body {
   width: 1200px;
   margin: auto;
 }
+.section {
+  padding: 94px 0px 94px 0px;
+}
 a {
   color: var(--main-text-color);
 }
@@ -41,6 +44,7 @@ button:hover {
 /*Header*/
 .header {
   width: 100%;
+  border: 1px solid #ececec;
 }
 .header-flex {
   height: 80px;
@@ -141,13 +145,10 @@ button:hover {
 .title {
   width: 100%;
   height: 600px;
-  padding-top: 200px;
+  padding: 200px 0px 200px 0px;
   background: var(--sec-background-color-dark);
 }
-.title-content-container {
-  width: 1200px;
-  margin: auto;
-}
+
 h1 {
   width: 66%;
   margin: auto;
@@ -186,9 +187,6 @@ h1 {
   color: var(--text-color-white);
 }
 
-.group-1 {
-  padding-top: 94px;
-}
 .group-1-list {
   display: flex;
   justify-content: space-evenly;
@@ -221,8 +219,6 @@ h1 {
 }
 
 .what-we-do {
-  margin: auto;
-  padding-bottom: 100px;
   padding-top: 100px;
 }
 .what-we-do-header {
@@ -250,11 +246,6 @@ h1 {
   height: 648px;
   background: var(--third-backround-color-gray);
 }
-.our-team-container {
-  width: 1200px;
-  margin: auto;
-  padding: 94px 0px 94px 0px;
-}
 .our-team-header {
   display: block;
   margin: auto;
@@ -273,9 +264,8 @@ h1 {
 .our-team-list {
   margin: auto;
   padding: 0;
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
-  height: 368px;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
