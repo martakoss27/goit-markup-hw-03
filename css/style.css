@@ -38,15 +38,17 @@ button:hover {
 .header {
   width: 100%;
 }
-.header-flex-items {
+.header-flex-container {
+  width: 1200px;
+  margin: auto;
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 0;
 }
 .header-item-1 {
-  width: 10%;
+  width: 14%;
 }
 .header-logo {
   display: block;
@@ -62,7 +64,7 @@ button:hover {
   color: var(--additional-color);
 }
 .header-item-2 {
-  width: 17%;
+  width: 20%;
 }
 .header-nav-list {
   display: flex;
@@ -135,13 +137,16 @@ button:hover {
 .title {
   width: 100%;
   height: 600px;
+  padding-top: 200px;
   background: var(--sec-background-color-dark);
 }
-
-h1 {
-  width: 43%;
+.title-content-container {
+  width: 1200px;
   margin: auto;
-
+}
+h1 {
+  width: 66%;
+  margin: auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -156,6 +161,7 @@ h1 {
 .button-title {
   display: block;
   margin: auto;
+  margin-top: 30px;
   height: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -163,7 +169,6 @@ h1 {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  margin: auto;
 
   color: var(--text-color-white);
 
@@ -177,23 +182,25 @@ h1 {
   color: var(--text-color-white);
 }
 .group-1 {
-  width: 73%;
+  width: 1200px;
   margin: auto;
+  margin-top: 94px;
 }
 .group-1-list {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .group-1-header {
-  margin-left: 10px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  margin: 0;
 
   color: var(--main-text-color);
 }
@@ -205,16 +212,16 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.03em;
   height: 97px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 0px 0px;
 
   color: var(--sec-text-color-gray);
 }
 
 .what-we-do {
-  width: 80%;
+  width: 1200px;
   height: 386px;
   margin: auto;
+  margin-top: 100px;
 }
 .what-we-do-header {
   width: 20%;
@@ -230,13 +237,10 @@ h1 {
   color: var(--main-text-color);
 }
 .what-we-do-list {
-  width: 90%;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
-  margin-top: 3%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 50px 0px 0px 0px;
   list-style: none;
 }
 .our-team {
@@ -244,11 +248,15 @@ h1 {
   height: 648px;
   background: var(--third-backround-color-gray);
 }
+.our-team-container {
+  width: 1200px;
+  margin: auto;
+  padding: 94px 0px 94px 0px;
+}
 .our-team-header {
   display: block;
   margin: auto;
   width: 15%;
-  height: 42px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -263,8 +271,8 @@ h1 {
 .our-team-list {
   margin: auto;
   padding: 0;
+  margin-top: 50px;
   text-align: center;
-  width: 69%;
   height: 368px;
   display: flex;
   justify-content: space-evenly;
@@ -303,14 +311,13 @@ h1 {
 }
 /*Main-portfolio*/
 .portfolio {
-  width: 80%;
+  width: 1200px;
   height: fit-content;
-  margin-left: 13.5%;
+  margin: auto;
+  margin-top: 123px;
 }
 .filters {
   margin: auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
   width: 60%;
 }
 .filter-button {
@@ -345,6 +352,8 @@ h1 {
 }
 .projects {
   margin: auto;
+  margin-top: 34px;
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -388,9 +397,12 @@ footer {
   width: 100%;
   background: var(--sec-background-color-dark);
 }
+.footer-container {
+  width: 1200px;
+  margin: auto;
+}
 .footer-logo {
   display: block;
-  margin-left: 10%;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -401,11 +413,11 @@ footer {
 
   color: var(--additional-color);
 }
-
 .footer-address-box {
-  margin-left: 10%;
+  margin-top: 5px;
 }
 .footer-address {
+  margin: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -418,6 +430,8 @@ footer {
 }
 .footer-contacts-list {
   padding: 0;
+  margin: 0;
+  margin-top: 4px;
   list-style-type: none;
   font-family: "Roboto";
   font-style: normal;

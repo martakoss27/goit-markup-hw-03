@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-      <ul class="header-flex-items">
+      <ul class="header-flex-container">
         <li class="header-item-1">
           <a class="header-logo" href="./index.html"> WebStudio</a>
         </li>
@@ -57,8 +57,12 @@
     <main>
       <!-- Title -->
       <section class="title">
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="button-title" type="BUTTON">Request our service</button>
+        <div class="title-content-container">
+          <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+          <button class="button-title" type="BUTTON">
+            Request our service
+          </button>
+        </div>
       </section>
       <!-- group1 -->
       <section class="group-1">
@@ -126,64 +130,68 @@
       </section>
       <!-- our-team -->
       <section class="our-team">
-        <h2 class="our-team-header">Our Team</h2>
-        <ul class="our-team-list">
-          <li class="team-cards">
-            <img
-              width="270"
-              height="260"
-              alt="photo of Christopher Walker"
-              src="../goit-markup-hw-01/images/person1.jpg"
-            />
-            <h4 class="team-names">Christopher Walker</h4>
-            <p class="team-position">Product Designer</p>
-          </li>
-          <li class="team-cards">
-            <img
-              width="270"
-              height="260"
-              alt="photo of Kylie Evans"
-              src="../goit-markup-hw-01/images/person2.jpg"
-            />
-            <h4 class="team-names">Kylie Evans</h4>
-            <p class="team-position">Frontend Developer</p>
-          </li>
+        <div class="our-team-container">
+          <h2 class="our-team-header">Our Team</h2>
+          <ul class="our-team-list">
+            <li class="team-cards">
+              <img
+                width="270"
+                height="260"
+                alt="photo of Christopher Walker"
+                src="../goit-markup-hw-01/images/person1.jpg"
+              />
+              <h4 class="team-names">Christopher Walker</h4>
+              <p class="team-position">Product Designer</p>
+            </li>
+            <li class="team-cards">
+              <img
+                width="270"
+                height="260"
+                alt="photo of Kylie Evans"
+                src="../goit-markup-hw-01/images/person2.jpg"
+              />
+              <h4 class="team-names">Kylie Evans</h4>
+              <p class="team-position">Frontend Developer</p>
+            </li>
 
-          <li class="team-cards">
-            <img
-              width="270"
-              height="260"
-              alt="photo of Ryan Harris"
-              src="../goit-markup-hw-01/images/person3.jpg"
-            />
-            <h4 class="team-names">Ryan Harris</h4>
-            <p class="team-position">Marketing</p>
-          </li>
-          <li class="team-cards">
-            <img
-              width="270"
-              height="260"
-              alt="photo of Tyler Moore"
-              src="../goit-markup-hw-01/images/person4.jpg"
-            />
-            <h4 class="team-names">Tyler Moore</h4>
-            <p class="team-position">UI Designer</p>
-          </li>
-        </ul>
+            <li class="team-cards">
+              <img
+                width="270"
+                height="260"
+                alt="photo of Ryan Harris"
+                src="../goit-markup-hw-01/images/person3.jpg"
+              />
+              <h4 class="team-names">Ryan Harris</h4>
+              <p class="team-position">Marketing</p>
+            </li>
+            <li class="team-cards">
+              <img
+                width="270"
+                height="260"
+                alt="photo of Tyler Moore"
+                src="../goit-markup-hw-01/images/person4.jpg"
+              />
+              <h4 class="team-names">Tyler Moore</h4>
+              <p class="team-position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
-      <a class="footer-logo" href="#">WebStudio</a>
-      <address class="footer-address-box">
-        <p class="footer-address">
-          695 Park Ave, New York, NY 10065,<br />
-          United States
-        </p>
-        <ul class="footer-contacts-list">
-          <li>info@devstudio.com</li>
-          <li>+1 212-772-4150</li>
-        </ul>
-      </address>
+      <div class="footer-container">
+        <a class="footer-logo" href="#">WebStudio</a>
+        <address class="footer-address-box">
+          <p class="footer-address">
+            695 Park Ave, New York, NY 10065,<br />
+            United States
+          </p>
+          <ul class="footer-contacts-list">
+            <li>info@devstudio.com</li>
+            <li>+1 212-772-4150</li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
