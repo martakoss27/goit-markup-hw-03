@@ -18,6 +18,10 @@ body {
   color: var(--main-text-color);
   background: var(--main-backroung-color);
 }
+.container {
+  width: 1200px;
+  margin: auto;
+}
 a {
   color: var(--main-text-color);
 }
@@ -38,8 +42,8 @@ button:hover {
 .header {
   width: 100%;
 }
-.header-flex-container {
-  width: 1200px;
+.header-flex {
+  height: 80px;
   margin: auto;
   display: flex;
   list-style: none;
@@ -181,10 +185,9 @@ h1 {
   background: #188ce8;
   color: var(--text-color-white);
 }
+
 .group-1 {
-  width: 1200px;
-  margin: auto;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .group-1-list {
   display: flex;
@@ -218,10 +221,9 @@ h1 {
 }
 
 .what-we-do {
-  width: 1200px;
-  height: 386px;
   margin: auto;
-  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .what-we-do-header {
   width: 20%;
@@ -311,10 +313,9 @@ h1 {
 }
 /*Main-portfolio*/
 .portfolio {
-  width: 1200px;
   height: fit-content;
-  margin: auto;
-  margin-top: 123px;
+  padding-top: 123px;
+  padding-bottom: 65px;
 }
 .filters {
   margin: auto;
@@ -351,9 +352,7 @@ h1 {
   letter-spacing: 0.03em;
 }
 .projects {
-  margin: auto;
-  margin-top: 34px;
-  margin-bottom: 60px;
+  padding-top: 34px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
